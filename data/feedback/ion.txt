@@ -1,0 +1,37 @@
+Tema: 1
+Nota: 7.8
+Predata in saptamana: 4
+Deadline: 12
+Feedback:
+exemplu
+more
+
+Tema: 3
+Nota: 1.0
+Predata in saptamana: 12
+Deadline: 8
+Feedback:
+asgasg
+saga
+
+Tema: 1
+Nota: 10.0
+Predata in saptamana: 10
+Deadline: 12
+Feedback:
+a
+
+Tema: 1
+Nota: 9.0
+Predata in saptamana: 10
+Deadline: 12
+Feedback:
+
+
+Tema: 2
+Nota: 1.0
+Predata in saptamana: 10
+Deadline: 4
+Feedback:
+feedbackk
+

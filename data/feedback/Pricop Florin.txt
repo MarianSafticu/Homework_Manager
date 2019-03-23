@@ -1,0 +1,234 @@
+Tema: 1
+Nota: 1.0
+Predata in saptamana: 11
+Deadline: 2
+Feedback:
+
+Tema: 2
+Nota: 1.0
+Predata in saptamana: 10
+Deadline: 3
+Feedback:
+
+Tema: 3
+Nota: 1.0
+Predata in saptamana: 7
+Deadline: 4
+Feedback:
+
+Tema: 4
+Nota: 1.0
+Predata in saptamana: 10
+Deadline: 5
+Feedback:
+
+Tema: 5
+Nota: 1.0
+Predata in saptamana: 9
+Deadline: 6
+Feedback:
+
+Tema: 6
+Nota: 1.0
+Predata in saptamana: 13
+Deadline: 7
+Feedback:
+
+Tema: 7
+Nota: 6.549148537430565
+Predata in saptamana: 9
+Deadline: 8
+Feedback:
+
+Tema: 8
+Nota: 1.0
+Predata in saptamana: 13
+Deadline: 9
+Feedback:
+
+Tema: 9
+Nota: 2.3026620784758904
+Predata in saptamana: 11
+Deadline: 10
+Feedback:
+
+Tema: 10
+Nota: 6.429511619350649
+Predata in saptamana: 11
+Deadline: 11
+Feedback:
+
+Tema: 11
+Nota: 9.512995552104739
+Predata in saptamana: 13
+Deadline: 14
+Feedback:
+
+Tema: 1
+Nota: 1.0
+Predata in saptamana: 8
+Deadline: 2
+Feedback:
+
+Tema: 4
+Nota: 1.0
+Predata in saptamana: 9
+Deadline: 5
+Feedback:
+
+Tema: 5
+Nota: 1.0
+Predata in saptamana: 10
+Deadline: 6
+Feedback:
+
+Tema: 6
+Nota: 1.0
+Predata in saptamana: 12
+Deadline: 7
+Feedback:
+
+Tema: 7
+Nota: 1.0
+Predata in saptamana: 11
+Deadline: 8
+Feedback:
+
+Tema: 9
+Nota: 3.4970850765799426
+Predata in saptamana: 12
+Deadline: 10
+Feedback:
+
+Tema: 10
+Nota: 3.5663392094825177
+Predata in saptamana: 13
+Deadline: 11
+Feedback:
+
+Tema: 11
+Nota: 8.924078319034685
+Predata in saptamana: 13
+Deadline: 14
+Feedback:
+
+Tema: 1
+Nota: 8.2623318221291
+Predata in saptamana: 8
+Deadline: 2
+Feedback:
+
+Tema: 2
+Nota: 9.500822243683722
+Predata in saptamana: 12
+Deadline: 3
+Feedback:
+
+Tema: 3
+Nota: 4.52060841594879
+Predata in saptamana: 6
+Deadline: 4
+Feedback:
+
+Tema: 4
+Nota: 8.199559749129943
+Predata in saptamana: 7
+Deadline: 5
+Feedback:
+
+Tema: 5
+Nota: 8.244109238707699
+Predata in saptamana: 12
+Deadline: 6
+Feedback:
+
+Tema: 7
+Nota: 7.652671517492562
+Predata in saptamana: 10
+Deadline: 8
+Feedback:
+
+Tema: 8
+Nota: 9.236088390628888
+Predata in saptamana: 11
+Deadline: 9
+Feedback:
+
+Tema: 9
+Nota: 9.003008173997422
+Predata in saptamana: 12
+Deadline: 10
+Feedback:
+
+Tema: 10
+Nota: 5.870017457043146
+Predata in saptamana: 13
+Deadline: 11
+Feedback:
+
+Tema: 11
+Nota: 6.655059952485782
+Predata in saptamana: 13
+Deadline: 14
+Feedback:
+
+Tema: 1
+Nota: 9.167997033407913
+Predata in saptamana: 5
+Deadline: 2
+Feedback:
+
+Tema: 2
+Nota: 3.337877039710107
+Predata in saptamana: 9
+Deadline: 3
+Feedback:
+
+Tema: 4
+Nota: 2.9224645273997956
+Predata in saptamana: 7
+Deadline: 5
+Feedback:
+
+Tema: 5
+Nota: 1.8775825967001079
+Predata in saptamana: 10
+Deadline: 6
+Feedback:
+
+Tema: 6
+Nota: 3.548621308351337
+Predata in saptamana: 10
+Deadline: 7
+Feedback:
+
+Tema: 7
+Nota: 1.9977337351083102
+Predata in saptamana: 12
+Deadline: 8
+Feedback:
+
+Tema: 8
+Nota: 5.954369559675118
+Predata in saptamana: 12
+Deadline: 9
+Feedback:
+
+Tema: 9
+Nota: 3.601035034814749
+Predata in saptamana: 12
+Deadline: 10
+Feedback:
+
+Tema: 10
+Nota: 4.27236255800063
+Predata in saptamana: 13
+Deadline: 11
+Feedback:
+
+Tema: 11
+Nota: 1.9074787527227024
+Predata in saptamana: 13
+Deadline: 14
+Feedback:
+

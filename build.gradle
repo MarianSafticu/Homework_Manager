@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+}
+
+group 'lab345'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/com.datastax.cassandra/cassandra-driver-core
+    compile group: 'com.datastax.cassandra', name: 'cassandra-driver-core', version: '3.3.2'
+
+//    // https://mvnrepository.com/artifact/com.datastax.cassandra/cassandra-driver-core
+//    compile group: 'com.datastax.cassandra', name: 'cassandra-driver-core', version: '1.0.0'
+    // https://mvnrepository.com/artifact/com.itextpdf/itextpdf
+    compile group: 'com.itextpdf', name: 'itextpdf', version: '5.5.13'
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

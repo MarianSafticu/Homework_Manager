@@ -1,0 +1,20 @@
+Tema: 3
+Nota: 10.0
+Predata in saptamana: 4
+Deadline: 4
+Feedback:
+
+Tema: 1
+Nota: 1.0
+Predata in saptamana: 12
+Deadline: 2
+Feedback:
+NOTA A FOST DIMINUATA LA 1 DIN CAUZA INTARZIERILOR
+
+Tema: 2
+Nota: 1.0
+Predata in saptamana: 12
+Deadline: 3
+Feedback:
+NOTA A FOST DIMINUATA LA 1 DIN CAUZA INTARZIERILOR
+

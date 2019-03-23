@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="297.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.StudentiGUI.EditGUI.ControllerStEdit">
+   <children>
+      <TextField fx:id="idF" layoutX="107.0" layoutY="117.0" />
+      <TextField fx:id="numeF" layoutX="107.0" layoutY="152.0" />
+      <TextField fx:id="grupaF" layoutX="107.0" layoutY="189.0" />
+      <TextField fx:id="emailF" layoutX="107.0" layoutY="221.0" />
+      <PasswordField fx:id="passwdF" layoutX="107.0" layoutY="268.0" />
+      <Label layoutX="38.0" layoutY="121.0" text="Id" />
+      <Label layoutX="35.0" layoutY="156.0" text="Nume" />
+      <Label layoutX="33.0" layoutY="193.0" text="Grupa" />
+      <Label layoutX="35.0" layoutY="225.0" text="Email" />
+      <Label layoutX="35.0" layoutY="272.0" text="Parola : " />
+      <Button layoutX="10.0" layoutY="352.0" mnemonicParsing="false" onAction="#addHandler" text="Adauga" />
+      <Button layoutX="78.0" layoutY="352.0" mnemonicParsing="false" onAction="#updateHandler" text="Modifica" />
+      <Button layoutX="149.0" layoutY="352.0" mnemonicParsing="false" onAction="#deleteHandler" text="Sterge" />
+      <Label layoutX="62.0" layoutY="31.0" text="Student Edit">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Button layoutX="209.0" layoutY="352.0" mnemonicParsing="false" onAction="#cancelHandler" text="Cancel" />
+      <Label layoutX="12.0" layoutY="78.0" text="Pentru Stergere este suficient sa precizati doar Id-ul" />
+   </children>
+</AnchorPane>

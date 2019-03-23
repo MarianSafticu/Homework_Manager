@@ -1,0 +1,28 @@
+Tema: 3
+Nota: 3.0
+Predata in saptamana: 12
+Deadline: 4
+Feedback:
+NOTA A FOST DIMINUATA LA 1 DIN CAUZA INTARZIERILOR
+
+laborator predat prea tarziu
+Tema: 4
+Nota: 10.0
+Predata in saptamana: 12
+Deadline: 5
+Feedback:
+NOTA A FOST DIMINUATA LA 1 DIN CAUZA INTARZIERILOR
+
+Tema: 9
+Nota: 6.8
+Predata in saptamana: 0
+Deadline: 10
+Feedback:
+
+Tema: 8
+Nota: 1.0
+Predata in saptamana: 12
+Deadline: 9
+Feedback:
+NOTA A FOST DIMINUATA LA 1 DIN CAUZA INTARZIERILOR
+

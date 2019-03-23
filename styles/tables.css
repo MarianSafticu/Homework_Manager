@@ -1,0 +1,75 @@
+.table-view{
+  /* -fx-background-image: url('picture_5.png'); */
+}
+.table-view{
+  -fx-background-image: url('picture_53.png');
+   /* -fx-background-color: transparent; */
+}
+
+.table-view:focused{
+    -fx-background-color: transparent;
+}
+
+/* Spaltenköpfe
+    Struktur column-header-background -> column-header */
+
+.table-view .column-header-background{
+    -fx-background-color: -fx-table-header-border-color,linear-gradient(#48d1cc 0%, #66cdaa 100%);
+    -fx-border-color: #666666;
+    -fx-table-cell-border-color:#666666;
+}
+.table-view .filler{
+  -fx-background-color: linear-gradient(#48d1cc 0%, #66cdaa 100%);
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: #000000;
+    /* -fx-padding: 0 2; */
+    -fx-padding: 0 -8;
+
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    /* -fx-border-color : #666666; */
+    /* -fx-border-width: 1px; */
+    -fx-padding: 0 -8;
+
+}
+
+.table-view .table-cell{
+    -fx-text-fill: #000000;
+    -fx-alignment: center;
+}
+.table-row{
+   -fx-border-color: #666666;
+}
+
+.table-row-cell{
+    -fx-opacity: 0.5;
+    -fx-background-color: -fx-table-cell-border-color, #66cdaa;
+    -fx-background-radius: 1;
+
+    /* -fx-prefWidth: 60; */
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-border-color: #666666;
+    -fx-table-cell-border-color:#666666;
+    -fx-padding : 0 -1;
+    /* -fx-padding: 0 20; */
+    /* -fx-padding: 1 4; /* 0 */
+}
+
+.table-row-cell:odd{
+    -fx-opacity: 0.5;
+    -fx-background-color: -fx-table-cell-border-color, #66cdaa;
+    /* -fx-background-radius: 1; */
+    /* -fx-background-insets: 0, 0 2 2 0; */
+    -fx-padding: 0 -1;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #005797;/**/
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="458.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.NoteGui.AddWindow.ControllerADD">
+   <children>
+      <Label layoutX="136.0" layoutY="14.0" text="Adaugare Nota">
+         <font>
+            <Font size="51.0" />
+         </font>
+      </Label>
+      <TextField fx:id="studentField" layoutX="143.0" layoutY="100.0" onKeyTyped="#stChangeHadler" />
+      <TextField fx:id="profesorField" layoutX="143.0" layoutY="138.0" />
+      <TextArea fx:id="feedbackArea" layoutX="301.0" layoutY="116.0" prefHeight="335.0" prefWidth="296.0" />
+      <ComboBox fx:id="laboratorCB" layoutX="143.0" layoutY="176.0" onAction="#motivatHandler" prefWidth="150.0" />
+      <Label layoutX="14.0" layoutY="102.0" text="Nume Student : ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="12.0" layoutY="140.0" text="Nume Profesor : ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="178.0" text="Laborator : ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="42.0" layoutY="219.0" text="Grupa : ">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="417.0" layoutY="92.0" text="Feedback">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="GrupF" layoutX="143.0" layoutY="217.0" prefWidth="150.0" />
+      <Button layoutX="41.0" layoutY="419.0" mnemonicParsing="false" onAction="#addBHandler" text="Add" />
+      <Button layoutX="232.0" layoutY="419.0" mnemonicParsing="false" onAction="#cancelBHandler" text="Cancel" />
+      <RadioButton fx:id="saptAntRB" layoutX="30.0" layoutY="359.0" mnemonicParsing="false" onAction="#motivatHandler" text="Predata in saptamani anterioare" />
+      <ComboBox fx:id="saptAntCB" layoutX="125.0" layoutY="376.0" prefWidth="150.0" />
+      <RadioButton fx:id="absenteB" layoutX="30.0" layoutY="333.0" mnemonicParsing="false" text="Caz special ( nu se depuncteaza intarzierile)" />
+      <Label fx:id="saptAntL" layoutX="46.0" layoutY="380.0" text="Saptamana :" />
+      <Label layoutX="46.0" layoutY="267.0" text="Nota" />
+      <TextField fx:id="notaField" layoutX="143.0" layoutY="263.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="671.0" prefWidth="963.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.NoteGui.Controller">
+   <center>
+      <TableView fx:id="tabel" prefHeight="564.0" prefWidth="669.0" BorderPane.alignment="CENTER">
+         <columns>
+            <TableColumn prefWidth="75.0" text="C1" />
+            <TableColumn prefWidth="75.0" text="C2" />
+         </columns>
+      </TableView>
+   </center>
+   <left>
+      <AnchorPane prefHeight="564.0" prefWidth="280.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="addButton" layoutX="38.0" layoutY="239.0" mnemonicParsing="false" onAction="#addButtonHandler" text="Adauga Nota" />
+            <Label layoutX="11.0" text="Saptamana curenta :">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="saptCurenta" layoutX="199.0" text="12">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="filterCB" layoutX="124.0" layoutY="66.0" onAction="#filterCBHandler" prefWidth="150.0" />
+            <Label layoutX="27.0" layoutY="68.0" text="Filtre:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="grupaCBFilter" layoutX="125.0" layoutY="114.0" onAction="#grupaCBHandler" prefWidth="150.0" />
+            <TextField fx:id="numeStFieldFilter" layoutX="125.0" layoutY="114.0" onAction="#f2ButtonHandler" onKeyReleased="#f2ButtonHandler" onKeyTyped="#f2ButtonHandler" />
+            <Label fx:id="grupaCBLabel" layoutX="49.0" layoutY="116.0" text="Grupa">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="numeStLabel" layoutX="18.0" layoutY="114.0" text="Nume Student">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="laboratorCBFilter" layoutX="121.0" layoutY="153.0" onAction="#labCBHandler" prefWidth="150.0" />
+            <Label fx:id="labCBLabel" layoutX="24.0" layoutY="156.0" text="Labortator">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Button fx:id="backB" layoutX="225.0" layoutY="239.0" mnemonicParsing="false" onAction="#backBHandler" text="Back" />
+         </children>
+      </AnchorPane>
+   </left>
+   <bottom>
+      <AnchorPane prefHeight="346.0" prefWidth="963.0" BorderPane.alignment="CENTER">
+         <children>
+            <PieChart fx:id="pc" />
+            <ComboBox fx:id="raportCB" layoutX="582.0" layoutY="2.0" onAction="#raportCBHandler" prefWidth="150.0" />
+            <Label layoutX="500.0" layoutY="6.0" text="Rapoarte : " />
+            <Button fx:id="generatePDFB" layoutX="857.0" layoutY="361.0" mnemonicParsing="false" onAction="#generarePDFHandler" text="Generate PDF" />
+            <TableView layoutX="500.0" layoutY="27.0" prefHeight="333.0" prefWidth="463.0">
+              <columns>
+                <TableColumn prefWidth="75.0" text="C1" />
+                <TableColumn prefWidth="75.0" text="C2" />
+              </columns>
+            </TableView>
+         </children></AnchorPane>
+   </bottom>
+</BorderPane>
